@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Más sobre mí - Ignacio Maidana</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main class="container">
+        <section class="contact-card">
+            <!-- Header con navegación -->
+            <div class="header-container">
+                <a href="index.html" class="back-button">← Volver al inicio</a>
+                <h1 class="page-title">Más sobre mí</h1>
+            </div>
+            
+            <!-- Sección de objetivos y metas -->
+            <div class="objetivos-container">
+                <h2 class="section-title">🎯 Mis Objetivos</h2>
+                <p class="objetivos-text">
+                    Mi objetivo profesional es desarrollarme en el ámbito de la gestión dentro del sector tecnológico, aportando una mirada integral que combine mis conocimientos técnicos con habilidades organizativas y analíticas. Aspiro a desempeñar roles donde pueda liderar proyectos, colaborar en la toma de decisiones estratégicas y actuar como nexo entre equipos técnicos y funcionales. A largo plazo, me gustaría especializarme en áreas como la gestión de proyectos IT, análisis funcional y consultoría tecnológica, participando en iniciativas que generen impacto real en los procesos y resultados de las organizaciones. Busco crecer profesionalmente en entornos dinámicos, donde el aprendizaje continuo y el trabajo en equipo sean pilares fundamentales.
+                </p>
+                
+                <div class="goals-grid">
+                    <div class="goal-item">
+                        <span class="goal-icon">🚀</span>
+                        <h3>Corto Plazo</h3>
+                        <p>Fortalecer mis habilidades de gestión y análisis</p>
+                    </div>
+                    <div class="goal-item">
+                        <span class="goal-icon">💼</span>
+                        <h3>Mediano Plazo</h3>
+                        <p>Integrarme a un equipo de trabajo en el área de gestión de una empresa tecnológica</p>
+                    </div>
+                    <div class="goal-item">
+                        <span class="goal-icon">🌟</span>
+                        <h3>Largo Plazo</h3>
+                        <p>Liderar proyectos de desarrollo y mentorar a otros</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Formulario de contacto -->
+            <div class="form-container">
+                <h2 class="section-title">💬 Déjame un mensaje</h2>
+                <p class="form-description">¿Tienes alguna pregunta o quieres colaborar en un proyecto? ¡Me encantaría escucharte!</p>
+                
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="nombre" class="form-label">Nombre completo</label>
+                        <input type="text" id="nombre" name="nombre" class="form-input" placeholder="Ingresa tu nombre completo" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email" class="form-label">Correo electrónico</label>
+                        <input type="email" id="email" name="email" class="form-input" placeholder="tu@email.com" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="asunto" class="form-label">Asunto</label>
+                        <select id="asunto" name="asunto" class="form-input" required>
+                            <option value="">Selecciona un asunto</option>
+                            <option value="colaboracion">Colaboración en proyecto</option>
+                            <option value="consulta">Consulta técnica</option>
+                            <option value="trabajo">Oportunidad laboral</option>
+                            <option value="otro">Otro</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="mensaje" class="form-label">Mensaje</label>
+                        <textarea id="mensaje" name="mensaje" class="form-textarea" placeholder="Escribe tu mensaje aquí..." rows="5" required></textarea>
+                    </div>
+                    
+                    <div class="form-group">
+                        <button type="submit" class="submit-button">
+                            <span class="button-text">Enviar mensaje</span>
+                            <span class="button-icon">📧</span>
+                        </button>
+                    </div>
+                </form>
+            </div>
+            
+            <!-- Información de contacto adicional -->
+            <div class="contact-info">
+                <h3 class="section-title">📞 Otras formas de contacto</h3>
+                <div class="contact-methods">
+                    <div class="contact-method">
+                        <span class="contact-icon">📧</span>
+                        <a href="mailto:ignacio.maidana001@gmail.com" class="contact-link">ignacio.maidana001@gmail.com</a>
+                    </div>
+                    <div class="contact-method">
+                        <span class="contact-icon">💼</span>
+                        <a href="https://www.linkedin.com/in/ignacio-maidana-3a2b40265/" target="_blank" rel="noopener noreferrer" class="contact-link">LinkedIn</a>
+                    </div>
+                    <div class="contact-method">
+                        <span class="contact-icon">🐙</span>
+                        <a href="https://github.com/ignacio-maidana" target="_blank" rel="noopener noreferrer" class="contact-link">GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
